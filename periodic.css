@@ -1,0 +1,154 @@
+.main_div{
+position: absolute;
+background-color:lightgray;
+width:5.2cm;
+top:0.2cm;  
+left:3.5cm;
+z-index: 1;
+height: 5.2cm;
+border-color: lightcyan;
+  text-align: left;
+  vertical-align: top;
+}
+.main_div_tab{
+position: absolute;
+background-color:lightgray;
+width:12%;
+top:0cm;  
+left:12%;
+z-index: 1;
+height: 25vh;
+border-color: lightcyan;
+  text-align: left;
+  vertical-align: top;
+}
+.act_tab{
+
+    width:2cm;
+    height: 2cm;  
+}
+.type_div{
+position: absolute;
+background-color:lightgray;
+width:10vh;
+top:0.2cm;  
+left:9cm;
+z-index: 1;
+height: 5.8cm;
+border-color: lightcyan;
+  text-align: left;
+vertical-align: center;
+}
+.type_div_tab{
+position: absolute;
+background-color:lightgray;
+width:30vw;
+top:0cm;  
+left:28%;
+z-index: 1;
+height: 25vh;
+border-color: lightcyan;
+  text-align: left;
+vertical-align: center;
+
+}
+
+button {
+  
+    text-align: left;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    width:1.5cm;
+    height: 1.5cm;
+    padding: 1px 1px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    z-index: -1;
+}
+
+
+td:hover {
+    color: red;
+    cursor: crosshair;
+}
+
+button:hover {
+    color: red;
+    cursor: crosshair;
+}
+.button_blank, .button_blank:hover {
+    opacity: 0;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.alkali_metal{
+    background-color: blue;
+} 
+.alkaline_earth_metal {
+    background-color: green;
+
+}
+.lan­thanide {
+    background-color:yellowgreen;
+}
+.actinide {
+    background-color:grey;
+}
+.transition_metal {
+    background-color:darkkhaki;
+}
+.post_transition_metal {
+    background-color:pink;
+}
+.metalloid{
+    background-color:orange;
+}
+
+.nobel_gas{
+    background-color:violet;
+}
+.unknown{
+    background-color:lightgrey;
+}
+.other_none_metal{
+      background-color: #4CAF50;
+}
+td{
+  font-size: 14px;
+  padding: 0px;
+}
+th{
+  font-size: 16px;
+  padding: 0px;
+text-align: left;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+padding: 0px;
+}
+.type_table{
+  position: absolute;
+  top:0cm;
+  left:0cm;
+
+}
+.radioactive{
+   position: absolute;
+  top:0.2cm;
+  left:7.3cm;
+  width:50px;
+  height: 40px; 
+  z-index: 2;
+}
+.radioactive_tab{
+   position: absolute;
+
+  z-index: 2;
+}
